@@ -1,1 +1,12 @@
-# avaliacaoMAP
+Conceito - SOLID é basicamente um grupo de boas práticas e princípios que podem ajudar a melhorar o design do software e a arquitetura, o nome SOLID é um acrônimo de alguns princípios como, Single Responsibility (Responsabilidade única), Open Closed (Aberto Fechado), Liskov Substitution (Substituição de Liskov), Interface Segregation (Segregação de interfaces) e Dependence inversion (Inversão de dependências,  esses conceitos já haviam aparecido em um artigo produzido pelo mesmo no ano de 2000, esse acrônimo foi  sugerido algum tempo depois por Michael  Feathers.
+
+1 - Single Responsibility (Responsabilidade única) - Esse principio é basicamente define que uma classe deve conter apenas uma responsabilidade ou assunto, é aqui surge a frase de que (uma classe deve ter um,  e somente um, motivo para mudar).
+Um indivíduo quando está iniciando a codificar costuma fazer classes com várias funcionalidades dentro do sistema,  classe esta pode ser denominada de GOD CLASS (Classe Deus), no entanto de início isso parece ser o correto a ser feito, mas a longo prazo isso pode trazer alguns problemas, por exemplo se for necessário alterar algo em uma GOD CLASS pode ocorrer de alterar algo que não deveria, assim trazendo problemas para manipular o código.
+
+2 - Open Closed (Aberto Fechado) - Este princípio determina basicamente que objetos e entidades devem estar abertos para extensão e fechados para alteração, neste caso quando novas funcionalidades foram adicionadas ao sistema, apenas iremos estender o código original e não modificar o mesmo,a vantagem desse princípio é que como uma nova funcionalidade será adicionada isoladamente então será mais fácil de corrigir caso de algum problema, deste modo diminuindo a chance de um bug no código.
+
+3 - Liskov Substitution (Substituição de Liskov) - As classes base devem ser substituíveis por suas classes derivadas.
+
+4 - Interface Segregation(Segregação de interface) - Neste princípio determina que uma classe não deve ser forçada a conter métodos e/ou interfaces que não serão utilizadas em algum momento, deste modo concluímos que é mais viável criar interfaces específicas e evitar a existência de interface genérica, ou seja, interface que contém todas as funcionalidades.
+
+5 - Dependency Inversion (Inversão de dependências) - Neste principio tratamos de uma coisa que poucos sabem e acabam fazendo errado por falta deste conceito, nele contém a seguinte frase “Dependa de abstrações e não de implementações. ”, de acordo com Robert C. Martin os módulos de alto nível não devem depender de módulos de baixo nível  e ambos os módulos devem depender da abstração.
